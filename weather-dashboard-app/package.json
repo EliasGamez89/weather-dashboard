@@ -1,0 +1,31 @@
+{
+  "name": "weather-dashboard-app",
+  "version": "1.0.0",
+  "description": "weather application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasGamez89/weather-dashboard.git#main"
+  },
+  "keywords": [
+    "weather",
+    "app",
+    "temperature",
+    "climate"
+  ],
+  "author": "Elias Gamez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasGamez89/weather-dashboard/issues"
+  },
+  "homepage": "https://github.com/EliasGamez89/weather-dashboard/tree/main#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

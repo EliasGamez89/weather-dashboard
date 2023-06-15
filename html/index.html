@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div>
+            <h1>Weather Dashboard App</h1>
+            <hr>
+        </div>
+        <div>
+            <input type="search" title="searchbar" id="searchBar" placeholder="search city">
+            <button type="submit" id="searchBtn">search</button>
+        </div>
+
+    </header>
+    <!-- separation             -->
+    <main>
+        <div>
+            <h2>City</h2>
+            <p id="cityDate"></p>
+        </div>
+        <div>
+            <h2>Sky Condition</h2>
+            <p id="weather"></p>
+        </div>
+        <div id="temp">
+            <h2>Temperature </h2>
+            <p> <span id="tempMin"></span></p>
+            <p> <span id="tempMax"></span></p>
+        </div>
+    </main>
+    <!-- separation  g            -->
+
+    <footer id="footer">
+        <div id="dailyChart">
+            <h2>Ejemplo de representacion de datos</h2>
+        </div>
+        <hr>
+        <div id="chartDiv">
+            <canvas id="myChart"></canvas>
+        </div>
+       
+    </footer>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../weather-dashboard-app/chart.js"></script>
+    <script src="../weather-dashboard-app/index.js"></script>
+
+
+</body>
+
+</html>
